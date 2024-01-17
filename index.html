@@ -6,7 +6,23 @@
     <title>CNG-Calculator</title>
     <link rel="stylesheet" href="./assets/css/output.css">
 </head>
-<body>
-    <h1 class="text-green-500">Hello</h1>
+<body class="bg-gradient-to-r from-DarkBlue via-[#7FC7D9] to-[#DCF2F1] ">
+<div class="bg-white max-w-lg mt-10 mx-auto p-4">
+    <div>
+        <h1 class="font-bold text-center">CNG Calculator</h1>
+        <p class="font-medium text-sm text-gray-600 mt-2">Simple Tool To Calculate The Cost</p>
+    </div>
+     <div class="mt-4 space-y-4">
+        <input type="number" placeholder="Trip Distance" class="px-4 py-2 outline-none bg-gray-200 rounded w-full">
+        <div>
+            <label for="fuel-efficiency" class="font-semibold text-sm">Fuel Efficiency <span class="text-red-500">*</span></label>
+            <input type="number" id="fuel-efficiency" placeholder="Fuel Efficiency" value="26" class="px-4 py-2 outline-none bg-gray-200 rounded w-full">
+        </div>
+        <div>
+            <label for="fuel-cost" class="font-semibold text-sm">Fuel Cost <span class="text-red-500">*</span></label>
+            <input type="number" id="fuel-cost" placeholder="Fuel Cost" value="84" class="px-4 py-2 outline-none bg-gray-200 rounded w-full">
+        </div>
+    </div>
+</div>
 </body>
 </html>

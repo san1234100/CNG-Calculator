@@ -20,7 +20,7 @@
             <input type="number" id="trip-distance" placeholder="Trip Distance" class="form-input" required>
         </div>
         <div>
-            <label for="fuel-efficiency" class="form-label">Fuel Efficiency <span class="text-red-500">*</span></label>
+            <label for="fuel-efficiency" class="form-label">Your Car's Fuel Efficiency <span class="text-red-500">*</span></label>
             <input type="number" id="fuel-efficiency" placeholder="Fuel Efficiency" value="26" class="form-input" required>
         </div>
         <div>
@@ -28,9 +28,12 @@
             <input type="number" id="fuel-cost" placeholder="Fuel Cost" value="84" class="form-input" required>
         </div>
         <div>
-            <button class="py-2 bg-DarkBlue text-white w-full rounded font-medium hover:bg-[#4b70b0]">Calculate</button>
+            <button id="calculateBtn" class="py-2 bg-DarkBlue text-white w-full rounded font-medium hover:bg-[#4b70b0]">Calculate</button>
         </div>
     </form>
+</div>
+<div class="bg-white max-w-xs sm:max-w-lg rounded mt-10 mx-auto">
+    <div id="result"></div>
 </div>
 <script src="./assets/js/main.js"></script>
 </body>
